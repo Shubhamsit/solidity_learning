@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fmemory",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fstorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/memory&storage_datalocations.sol": "memoryVsStorage"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/memory&storage_datalocations.sol": {
+			"keccak256": "0xe45ffd14e71f3246f0ec8dd024e4174a1eb19c6114727e7b8570f0ec95a55751",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://340fea3b7ba0404b415c38adaac1aebb0511acffdc28666f7ffd1242bdce8ea3",
+				"dweb:/ipfs/QmX6SFdJ2sEC7PABMJNjqT5U9z4wcM6gJv44zJ6Ni2n2DW"
+			]
+		}
+	},
+	"version": 1
+}

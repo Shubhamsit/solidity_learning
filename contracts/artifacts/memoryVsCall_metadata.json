@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "_arr",
+						"type": "uint256[5]"
+					}
+				],
+				"name": "add_element",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/memory&call_datalocations.sol": "memoryVsCall"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/memory&call_datalocations.sol": {
+			"keccak256": "0x3464b5d9b3d49c75c16e9961e1f1cbce038936e9fbcc3d11c57e3f352fa78515",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d123c403d15f6b730fbcdb198edeead9f8068567c81c6c25bb5ffee853f2be9d",
+				"dweb:/ipfs/Qmas4oxRY1xJHQAjq1LgQbVJjtLCnwEXkb8tPcaev1fWuo"
+			]
+		}
+	},
+	"version": 1
+}

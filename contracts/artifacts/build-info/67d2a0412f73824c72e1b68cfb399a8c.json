@@ -1,0 +1,72 @@
+{
+	"id": "67d2a0412f73824c72e1b68cfb399a8c",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.30",
+	"solcLongVersion": "0.8.30+commit.73712a01",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/refrence_datatype.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <0.9.0;\r\n\r\n/*\r\n\r\n\r\nrefrence datatype-> String, Arrays, Mappings, Struct\r\n\r\n-> if we use a refrence dataype we always have to explicitly provide the data area where the type is stored.\r\n\r\n-> every ref datatype has an additional annoatation the \"data location\" , about where it is stored. \r\nthere are three data locations: 1. memory, 2.storage 3. calldata \r\n\r\n1. memory:- lifetime is limited to an external function call\r\n2. storage:- to locations where the state variables are stored , where the lifetime is limited to the lifetime of a contract\r\n3. calldata:- special data loacations that contains the function argumnts\r\n\r\n\r\n\r\n\r\n*/\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/refrence_datatype.sol": {
+				"ast": {
+					"absolutePath": "contracts/refrence_datatype.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "37:31:0"
+						}
+					],
+					"src": "37:659:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
