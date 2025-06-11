@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "row",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "col",
+						"type": "uint256"
+					}
+				],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "row",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "col",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "value",
+						"type": "bool"
+					}
+				],
+				"name": "insert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/nested_mapping.sol": "nested_mapping"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/nested_mapping.sol": {
+			"keccak256": "0x11309e3b266fef729b2775f781405b537ce184209b30173b42ffa76e0bcaf07a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9e6506229ac0af3cb1976800ed78a284ab2d793809aa477991e25abb63642c8f",
+				"dweb:/ipfs/QmVFwwogRmmR6N46aEgd5X1vh5JToGj3FLD6VevSQpuRro"
+			]
+		}
+	},
+	"version": 1
+}

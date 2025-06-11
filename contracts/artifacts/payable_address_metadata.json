@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "reciever",
+						"type": "address"
+					}
+				],
+				"name": "sendETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/payable_address.sol": "payable_address"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/payable_address.sol": {
+			"keccak256": "0x66c784c44f34c93e6beb560b2e16eb7980492cefb564d0414d727d4ea9ecc88d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7b4d58b99ad9e9fa9e2d13588bb6b89bc382a2b8cb75471b9fb536bb131ab03a",
+				"dweb:/ipfs/QmUxkStc4HZ6G6opcTzYRYTqxmYL2tkA2KhjMNhLqLSvoA"
+			]
+		}
+	},
+	"version": 1
+}

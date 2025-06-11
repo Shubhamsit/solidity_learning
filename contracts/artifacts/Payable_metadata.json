@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "seeContractBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEtherToContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/payable.sol": "Payable"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/payable.sol": {
+			"keccak256": "0x4e2891042e95a65a4a758989a2ddaf0eba5477c0f0a381876e6dab4e371b1a30",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a2c573cca177b51560440631d17e20687180062429bf5b9f2a46add5c8e660ec",
+				"dweb:/ipfs/QmUCqBn7qD3n8w9uHnGUqAZ4bdbWstoUA47NpphHW1piy9"
+			]
+		}
+	},
+	"version": 1
+}
